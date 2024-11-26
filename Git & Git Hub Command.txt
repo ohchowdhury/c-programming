@@ -1,0 +1,8 @@
+Git & Git Hub Command:
+
+clear (to  clear terminal data)
+git commit
+initial commit
+Esc
+:wq  //commit all file to git
+
