@@ -48,3 +48,6 @@ cat git.pub // add link into SSH new key in your GitHub account
 git add -A
 git commit -m "git connected to github"
 
+//to add another branch in GitHub
+git push -u origin dev_owahid
+
