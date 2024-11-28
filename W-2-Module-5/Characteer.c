@@ -2,15 +2,15 @@
 int main()
 {
     char a;
-    scanf("%c", a);
+    scanf("%c", &a);
     if (a >= 'a' && a <= 'z')
     {
-        int ans = a - 32; // lowercase char
+        char ans = a - 32; // lowercase char
         printf("%c", ans);
     }
    else
     {
-        int ans = a + 32; // Uppercase char
+        char ans = a + 32; // Uppercase char
         printf("%c", ans);
     }
 
