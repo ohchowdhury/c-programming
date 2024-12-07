@@ -1,8 +1,53 @@
 Git & Git Hub Command:
-
+git config --global user.name owahid
+git config --global user.email owahidul.cse@gmail.com
 clear (to  clear terminal data)
+
+git init
+ls //to check file in the folder Hidden file
+
+touch index.html //to open new file
+git rm index.html -f // to remove the file
+
+cd css  // to add folder
+cd .. //folder teke ber hobe
+git add Module 3/loop_sum.c
+
 git commit
 initial commit
 Esc
 :wq  //commit all file to git
+git status
+
+git status
+git -A
+git commit -m "some modification on index.html"
+
+git checkout file name
+git checkout -f //for backup all file
+
+git log
+git log -p -1  // to see the last commit
+
+git diff --staged
+
+touch gitignore
+git add -A
+git commit -m "Added gitignore" // folder/file,*jpg,*png
+
+git branch
+git branch master
+git branch dev_owahid
+git checkout dev_owahid
+git add -A
+git commit -m "some modification"
+git checkout Master
+git marge dev_owahid -m "Comment"
+
+cat git.pub // add link into SSH new key in your GitHub account 
+git add -A
+git commit -m "git connected to github"
+
+//to add another branch in GitHub
+git push -u origin dev_owahid
 
